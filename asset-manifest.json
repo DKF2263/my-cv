@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DKF2263/my-cv/static/css/main.db0ec49a.css",
+    "main.js": "/DKF2263/my-cv/static/js/main.b0302b0f.js",
+    "index.html": "/DKF2263/my-cv/index.html",
+    "main.db0ec49a.css.map": "/DKF2263/my-cv/static/css/main.db0ec49a.css.map",
+    "main.b0302b0f.js.map": "/DKF2263/my-cv/static/js/main.b0302b0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db0ec49a.css",
+    "static/js/main.b0302b0f.js"
+  ]
+}
