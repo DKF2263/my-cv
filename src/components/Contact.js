@@ -53,7 +53,7 @@ function Contact() {
       <div className="mt-6">
         <a
           href="CV_LeHoangDangKhoa.pdf"
-          download
+          download = "CV_LeHoangDangKhoa.pdf"
           className="inline-block bg-blue-500 hover:bg-blue-400 text-black font-semibold px-6 py-2 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105"
         >
           Download CV
