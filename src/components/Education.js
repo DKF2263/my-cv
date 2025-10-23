@@ -1,7 +1,7 @@
 function Education() {
   return (
     <section className="py-10 px-6 bg-[#0b0b0d] text-white">
-      <h2 className="text-2xl font-bold text-black mb-6 text-center uppercase tracking-wide">
+      <h2 className="text-2xl font-bold text-blue-400 mb-6 text-center uppercase tracking-wide">
         Education
       </h2>
 

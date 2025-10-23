@@ -1,17 +1,56 @@
+import { FaGithub, FaEnvelope, FaFacebook, FaPhone } from "react-icons/fa";
+
 function Contact() {
   return (
     <footer className="bg-[#0b0b0d] text-white py-12 px-6 text-center border-t border-gray-800">
       <h2 className="text-2xl font-bold text-blue-400 uppercase tracking-wide mb-6">
-        Contact
+        Contact Me
       </h2>
 
-      <div className="space-y-2 text-gray-300">
-        <p>📍 Ho Chi Minh City, Vietnam</p>
-        <p>📞 (+84) 947 085 416</p>
-        <p>✉️ lehoangdangkhoa2842003@gmail.com</p>
+      {/* Các đường dẫn liên hệ */}
+      <div className="flex justify-center gap-10 text-3xl mb-6">
+        {/* Email */}
+        <a
+          href="mailto:lehoangdangkhoa2842003@gmail.com"
+          className="text-gray-400 hover:text-blue-400 transition duration-300"
+          title="Email"
+        >
+          <FaEnvelope />
+        </a>
+
+        {/* GitHub */}
+        <a
+          href="https://github.com/DKF2263"
+          target="_blank"
+          rel="noreferrer"
+          className="text-gray-400 hover:text-blue-400 transition duration-300"
+          title="GitHub"
+        >
+          <FaGithub />
+        </a>
+        {/* Facebook */}
+        <a
+          href="https://www.facebook.com/le.hoang.ang.khoa.610666/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-gray-400 hover:text-blue-400 transition duration-300"
+          title="Facebook"
+        >
+          <FaFacebook />
+        </a>
+
+        {/* Phone (optional) */}
+        <a
+          href="tel:+84947085416"
+          className="text-gray-400 hover:text-blue-400 transition duration-300"
+          title="Phone"
+        >
+          <FaPhone />
+        </a>
       </div>
 
-      <div className="mt-8">
+      {/* Nút download CV */}
+      <div className="mt-6">
         <a
           href="/CV_LeHoangDangKhoa.pdf"
           download
@@ -21,8 +60,9 @@ function Contact() {
         </a>
       </div>
 
+      {/* Footer */}
       <p className="text-sm mt-8 text-gray-500">
-        © {new Date().getFullYear()} Lê Hoàng Đăng Khoa. All rights reserved.
+        © {new Date().getFullYear()} Lê Hoàng Đăng Khoa — All Rights Reserved.
       </p>
     </footer>
   );
