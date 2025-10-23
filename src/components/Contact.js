@@ -7,7 +7,7 @@ function Contact() {
         Contact Me
       </h2>
 
-      {/* Các đường dẫn liên hệ */}
+      
       <div className="flex justify-center gap-10 text-3xl mb-6">
         {/* Email */}
         <a
@@ -28,7 +28,7 @@ function Contact() {
         >
           <FaGithub />
         </a>
-        {/* Facebook */}
+        {/* FB */}
         <a
           href="https://www.facebook.com/le.hoang.ang.khoa.610666/"
           target="_blank"
@@ -39,7 +39,7 @@ function Contact() {
           <FaFacebook />
         </a>
 
-        {/* Phone (optional) */}
+        {/* SĐT */}
         <a
           href="tel:+84947085416"
           className="text-gray-400 hover:text-blue-400 transition duration-300"
@@ -49,10 +49,10 @@ function Contact() {
         </a>
       </div>
 
-      {/* Nút download CV */}
+      {/* Nút download */}
       <div className="mt-6">
         <a
-          href="/CV_LeHoangDangKhoa.pdf"
+          href="CV_LeHoangDangKhoa.pdf"
           download
           className="inline-block bg-blue-500 hover:bg-blue-400 text-black font-semibold px-6 py-2 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105"
         >
