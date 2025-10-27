@@ -5,7 +5,7 @@ function Header() {
         LE HOANG DANG KHOA
       </h1>
       <p className="text-blue-400 text-lg font-semibold tracking-wide">
-        Physics and Engineering Physics 
+        Physics Computer Science
       </p>    
     </header>
   );
